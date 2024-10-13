@@ -37,7 +37,7 @@ int main(int argc, char *argv[])
 
     // create the sfml circle shape based on our parameters
     sf::CircleShape circle(circleRadius, circleSegments);
-    circle.setPosition(10.0f+circleRadius, 10.0f+circleRadius);
+    circle.setPosition(10.0f, 10.0f);
 
     // let's load a font so we can display some text
     sf::Font myFont;
